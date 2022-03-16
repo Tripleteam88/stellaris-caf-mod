@@ -1,0 +1,24 @@
+civic_caf = {
+
+	modifier = {
+		# This is the caf civic so it needs a food mofifier for sure
+		planet_farmers_food_produces_add = 10
+		# caf boys are smart
+		planet_researchers_physics_research_produces_mult = 10
+		planet_researchers_engineering_research_produces_mult = 10
+		planet_researchers_society_research_produces_mult = 10
+		num_tech_alternatives_add = 1
+		planet_jobs_slave_produces_mult = 5
+		planet_pops_consumer_goods_upkeep_mult = -0.50
+		# caf boys also good spies
+		intel_encryption_add = 4
+		intel_decryption_add = 4
+		# happy and reproduce
+		pop_citizen_happiness = 1
+		pop_growth_speed = 1
+		#unitied we stand
+		country_unity_produces_mult = 1
+
+	}
+
+}
